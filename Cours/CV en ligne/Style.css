@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(artificial-intelligence-g710f38c4b_1920.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0.7);
+
+
+}
+
+.logo span{
+    color: crimson;
+    font-weight: bold;
+    font-size: 2rem;
+
+
+}
+
+ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: transparent solid 1px;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+    background: #fff;
+    color: black;
+}
+
+ul li :active a{
+    background: #fff;
+    color: black;
+
+}
+
+.Principal{
+    max-width: 114rem;
+    margin: 0 auto;
+
+}
+
+.Titre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.Titre {
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.bouton {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.bouton a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.btn {
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+h3 {
+    color: rgb(185, 0, 0);
+    text-decoration: none;
+    color: rgb(116, 5, 5);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: transparent solid 1px;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+
+
+}
